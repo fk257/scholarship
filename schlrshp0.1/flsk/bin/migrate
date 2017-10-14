@@ -1,0 +1,10 @@
+#!/Users/festonkastrati/Code/bloomberg/schlrshp0.1/flsk/bin/python3
+# PBR Generated from 'console_scripts'
+
+import sys
+
+from migrate.versioning.shell import main
+
+
+if __name__ == "__main__":
+    sys.exit(main())

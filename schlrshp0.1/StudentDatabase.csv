@@ -1,0 +1,21 @@
+id,Last name,First Name,Gender,Age,Ethnicity,Citizenship,Country,class_,Gradyear,Clubs,Disability
+1,Cox,Sam,M,18,Caucasian,Non US-citizen,United Kingdom,Freshman,2021,None,Yes
+2,Doe,John,M,19,African American,US Citizen,United States,Sophomore,2020,Volleyball,No
+3,Freed,Alison,F,20,Caucasian,US Citizen,United States,Sophomore,2020,Debate,No
+4,Glenn,Amy,F,22,Caucasian,US Citizen,United States,Senior,2018,Disability Club,No
+5,Heard,Amber,F,18,Caucasian,US Citizen,United States,Freshman,2021,Lacrosse,No
+6,Hewitt,Anna,F,18,Caucasian,US Citizen,United States,Freshman,2021,Lacrosss,No
+7,Jain,Adi,M,18,Asian Indian,Non US-citizen,India,Freshman,2021,Cricket,No
+8,Joshi,Tanuj,M,19,Asian Indian,US Citizen,United States,Freshman,2021,Football,No
+9,Kastrati,Feston,M,19,Caucasian,US Citizen,United States,Freshman,2021,Football,No
+10,Kauffman,Michael ,M,19,Caucasian,US Citizen,United States,Junior,2019,None,No
+11,Martin,Maxime,M,18,Caucasian,US Citizen,United States,Sophomore,2020,None,No
+12,Muhammed,Ali,M,20,Asian Indian,US Citizen,United States,Junior,2019,None,No
+13,Mukan,Shruti,F,20,Asian Indian,US Citizen,United States,Junior,2019,None,No
+14,Naidu,Kaditya,F,21,Other Asian,Non US-citizen,Mauritius,Junior,2019,Swim,No
+15,Rabbit,Roger,M,21,Native Hawaiin,US Citizen,United States,Senior,2018,Baking,No
+16,Spade,Kate,F,21,African American,US Citizen,United States,Senior,2018,Women in Tech,No
+17,Steinberg,Sheli,F,18,Caucasian,US Citizen,United States,Freshman,2021,Track & Field,No
+18,Topman,Louis,M,21,African American,US Citizen,United States,Junior,2019,None,No
+19,Ying,Yang,F,21,Chinese,US Citizen,United States,Senior,2018,None,No
+20,Yang,Luna,F,19,Chinese,Non US-citizen,China,Sophomore,2020,None,No

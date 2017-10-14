@@ -1,0 +1,733 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="manifest" href="site.webmanifest">
+		<link rel="apple-touch-icon" href="icon.png">
+		<!-- Place favicon.ico in the root directory -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/simpleGridTemplate.css">
+		<link rel="stylesheet" href="css/multiColumnTemplate.css">
+	</head>
+	<body>
+		<!--[if lte IE 9]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+		<![endif]-->
+		<!--     Menu     -->
+  <header class="header">
+    <h4 class="logo">Fund the Future</h4>
+  </header>
+		<div class="menu" id="menu">
+			<div class="menu-section mobile">
+				<div class="menu-section-title">
+					ElevateMe
+				</div>
+				<div class="menu-action">
+					<a tabindex="2" href="#" class="reset-a menu-a">
+						Giving Website
+					</a>
+				</div>
+				<div class="menu-action">
+					<a tabindex="2" href="#" class="reset-a menu-a">
+						About
+					</a>
+				</div>
+				<div class="menu-action">
+					<a tabindex="2" href="#" class="reset-a menu-a">
+						Giving Day
+					</a>
+				</div>
+			</div>
+			<div class="menu-section account-portal">
+				<div class="menu-action">
+					<a tabindex="2" class="reset-a menu-a" href="#">
+						Log In
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--     Body     -->
+		<div id="donation-body">
+			<div class="container-fluid section" id="title-section">
+				<h3>Women in Tech</h3>
+				<small class="donate-subtitle">Scholarship</small>
+			</div>
+			<div class="container-fluid content" id="main-container">
+				<div class="row">
+
+					<div class="col-sm-8 col-md-8" id="form">
+						<img src="img/wit.jpg" alt="Women in Tech" id="campaign-banner">
+						<form role="form" id="donate-form" autocomplete="on">
+							<div class="row">
+								<div class="col-sm-12">
+									<h4>
+										Please enter the amount you would like to contribute:
+									</h4>
+								</div>
+							</div>
+							<div class="row" id="amount-section">
+								<div class="col-sm-3">
+									<div id="amount-wrapper" class="amount-wrapper">
+										<span id="amount-dollar" class="amount-dollar">$</span>
+										<input id="lineitem-0Damount" name="lineitem-0Damount" type="text" value="100" class="amount-input form-control cfundForm_inputAmount" />
+										<input type="hidden" id="lineitem-0Dproject" name="lineitem-0Dproject" value="6550" />
+									</div>
+								</div>
+								<div class="col-sm-9">
+									<div class="btn-group amount-quick-amounts">
+										<button type="button" class="btn btn-default cfundForm_quickAmount" tabindex="1" value="25">
+											$25
+										</button>
+										<button type="button" class="btn btn-default cfundForm_quickAmount" tabindex="1" value="50">
+											$50
+										</button>
+										<button type="button" class="btn btn-default cfundForm_quickAmount" tabindex="1" value="100">
+											$100
+										</button>
+										<button type="button" class="btn btn-default cfundForm_quickAmount" tabindex="1" value="250">
+											$250
+										</button>
+										<button type="button" class="btn btn-default cfundForm_quickAmount" tabindex="1" value="500">
+											$500
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12">
+									<small id="lineitem-0Damount-error" class="error-text"></small>
+								</div>
+							</div>
+							<!--
+							<div class="row">
+								<div class="col-sm-8 col-md-6">
+									<div class="fund form-group">
+										<label for="lineitem-0Ddesignation">Fund Designation</label>
+										<select class="form-control gdForm_selectDesignation" id="lineitem-0ddesignation" name="lineitem-0Ddesignation" tabindex="1">
+											<option value="7772">Campbell Championship Fund</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12">
+									<small id="des-error" class="error-text">Please select a Fund Designation.</small>
+								</div>
+							</div>
+							<a name="contact"></a>
+							<div id="contact-section" class="row dark-section section">
+								<div class="col-sm-8 col-md-6">
+									<h4>Contact Information</h4>
+									<div class="form-group">
+										<label for="email">Email</label>
+										<input type="email" tabindex="1" class="form-control long-input" id="email" name="email" value="" autocomplete="email">
+										<small id="email-error" class="error-text"></small>
+									</div>
+									<div class="form-group">
+										<label for="first_name">First Name</label>
+										<input type="text" tabindex="1" class="form-control long-input" id="first_name", name="first_name", value="" autocomplete="given-name">
+										<small id="first_name-error" class="error-text"></small>
+									</div>
+									<div class="form-group">
+										<label for="last_name">Last Name</label>
+										<input type="text" tabindex="1" class="form-control long-input" id="last_name" name="last_name", value="" autocomplete="family-name">
+										<small id="last_name-error" class="error-text"></small>
+									</div>
+									<div class="form-group">
+										<label for="phone">Telephone</label>
+										<small>Optional</small>
+										<input type="tel" tabindex="1" class="form-control very-short-input" id="phone" name="phone", value="" autocomplete="tel">
+										<small id="phone-error"  class="error-text"></small>
+									</div>
+									<h4>Billing Address</h4>
+									<div class="form-group">
+										<label for="country-input">Country</label>
+										<select autocomplete="shipping country-name" class="form-control short-input" id="country" name="country" tabindex="1">
+											<option value="AW">Aruba</option>
+											<option value="AF">Afghanistan</option>
+											<option value="AO">Angola</option>
+											<option value="AI">Anguilla</option>
+											<option value="AX">Åland Islands</option>
+											<option value="AL">Albania</option>
+											<option value="AD">Andorra</option>
+											<option value="AE">United Arab Emirates</option>
+											<option value="AR">Argentina</option>
+											<option value="AM">Armenia</option>
+											<option value="AS">American Samoa</option>
+											<option value="AQ">Antarctica</option>
+											<option value="TF">French Southern Territories</option>
+											<option value="AG">Antigua and Barbuda</option>
+											<option value="AU">Australia</option>
+											<option value="AT">Austria</option>
+											<option value="AZ">Azerbaijan</option>
+											<option value="BI">Burundi</option>
+											<option value="BE">Belgium</option>
+											<option value="BJ">Benin</option>
+											<option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+											<option value="BF">Burkina Faso</option>
+											<option value="BD">Bangladesh</option>
+											<option value="BG">Bulgaria</option>
+											<option value="BH">Bahrain</option>
+											<option value="BS">Bahamas</option>
+											<option value="BA">Bosnia and Herzegovina</option>
+											<option value="BL">Saint Barthélemy</option>
+											<option value="BY">Belarus</option>
+											<option value="BZ">Belize</option>
+											<option value="BM">Bermuda</option>
+											<option value="BO">Bolivia, Plurinational State of</option>
+											<option value="BR">Brazil</option>
+											<option value="BB">Barbados</option>
+											<option value="BN">Brunei Darussalam</option>
+											<option value="BT">Bhutan</option>
+											<option value="BV">Bouvet Island</option>
+											<option value="BW">Botswana</option>
+											<option value="CF">Central African Republic</option>
+											<option value="CA">Canada</option>
+											<option value="CC">Cocos (Keeling) Islands</option>
+											<option value="CH">Switzerland</option>
+											<option value="CL">Chile</option>
+											<option value="CN">China</option>
+											<option value="CI">Côte d&#39;Ivoire</option>
+											<option value="CM">Cameroon</option>
+											<option value="CD">Congo, The Democratic Republic of the</option>
+											<option value="CG">Congo</option>
+											<option value="CK">Cook Islands</option>
+											<option value="CO">Colombia</option>
+											<option value="KM">Comoros</option>
+											<option value="CV">Cabo Verde</option>
+											<option value="CR">Costa Rica</option>
+											<option value="CU">Cuba</option>
+											<option value="CW">Curaçao</option>
+											<option value="CX">Christmas Island</option>
+											<option value="KY">Cayman Islands</option>
+											<option value="CY">Cyprus</option>
+											<option value="CZ">Czechia</option>
+											<option value="DE">Germany</option>
+											<option value="DJ">Djibouti</option>
+											<option value="DM">Dominica</option>
+											<option value="DK">Denmark</option>
+											<option value="DO">Dominican Republic</option>
+											<option value="DZ">Algeria</option>
+											<option value="EC">Ecuador</option>
+											<option value="EG">Egypt</option>
+											<option value="ER">Eritrea</option>
+											<option value="EH">Western Sahara</option>
+											<option value="ES">Spain</option>
+											<option value="EE">Estonia</option>
+											<option value="ET">Ethiopia</option>
+											<option value="FI">Finland</option>
+											<option value="FJ">Fiji</option>
+											<option value="FK">Falkland Islands (Malvinas)</option>
+											<option value="FR">France</option>
+											<option value="FO">Faroe Islands</option>
+											<option value="FM">Micronesia, Federated States of</option>
+											<option value="GA">Gabon</option>
+											<option value="GB">United Kingdom</option>
+											<option value="GE">Georgia</option>
+											<option value="GG">Guernsey</option>
+											<option value="GH">Ghana</option>
+											<option value="GI">Gibraltar</option>
+											<option value="GN">Guinea</option>
+											<option value="GP">Guadeloupe</option>
+											<option value="GM">Gambia</option>
+											<option value="GW">Guinea-Bissau</option>
+											<option value="GQ">Equatorial Guinea</option>
+											<option value="GR">Greece</option>
+											<option value="GD">Grenada</option>
+											<option value="GL">Greenland</option>
+											<option value="GT">Guatemala</option>
+											<option value="GF">French Guiana</option>
+											<option value="GU">Guam</option>
+											<option value="GY">Guyana</option>
+											<option value="HK">Hong Kong</option>
+											<option value="HM">Heard Island and McDonald Islands</option>
+											<option value="HN">Honduras</option>
+											<option value="HR">Croatia</option>
+											<option value="HT">Haiti</option>
+											<option value="HU">Hungary</option>
+											<option value="ID">Indonesia</option>
+											<option value="IM">Isle of Man</option>
+											<option value="IN">India</option>
+											<option value="IO">British Indian Ocean Territory</option>
+											<option value="IE">Ireland</option>
+											<option value="IR">Iran, Islamic Republic of</option>
+											<option value="IQ">Iraq</option>
+											<option value="IS">Iceland</option>
+											<option value="IL">Israel</option>
+											<option value="IT">Italy</option>
+											<option value="JM">Jamaica</option>
+											<option value="JE">Jersey</option>
+											<option value="JO">Jordan</option>
+											<option value="JP">Japan</option>
+											<option value="KZ">Kazakhstan</option>
+											<option value="KE">Kenya</option>
+											<option value="KG">Kyrgyzstan</option>
+											<option value="KH">Cambodia</option>
+											<option value="KI">Kiribati</option>
+											<option value="KN">Saint Kitts and Nevis</option>
+											<option value="KR">Korea, Republic of</option>
+											<option value="KW">Kuwait</option>
+											<option value="LA">Lao People&#39;s Democratic Republic</option>
+											<option value="LB">Lebanon</option>
+											<option value="LR">Liberia</option>
+											<option value="LY">Libya</option>
+											<option value="LC">Saint Lucia</option>
+											<option value="LI">Liechtenstein</option>
+											<option value="LK">Sri Lanka</option>
+											<option value="LS">Lesotho</option>
+											<option value="LT">Lithuania</option>
+											<option value="LU">Luxembourg</option>
+											<option value="LV">Latvia</option>
+											<option value="MO">Macao</option>
+											<option value="MF">Saint Martin (French part)</option>
+											<option value="MA">Morocco</option>
+											<option value="MC">Monaco</option>
+											<option value="MD">Moldova, Republic of</option>
+											<option value="MG">Madagascar</option>
+											<option value="MV">Maldives</option>
+											<option value="MX">Mexico</option>
+											<option value="MH">Marshall Islands</option>
+											<option value="MK">Macedonia, Republic of</option>
+											<option value="ML">Mali</option>
+											<option value="MT">Malta</option>
+											<option value="MM">Myanmar</option>
+											<option value="ME">Montenegro</option>
+											<option value="MN">Mongolia</option>
+											<option value="MP">Northern Mariana Islands</option>
+											<option value="MZ">Mozambique</option>
+											<option value="MR">Mauritania</option>
+											<option value="MS">Montserrat</option>
+											<option value="MQ">Martinique</option>
+											<option value="MU">Mauritius</option>
+											<option value="MW">Malawi</option>
+											<option value="MY">Malaysia</option>
+											<option value="YT">Mayotte</option>
+											<option value="NA">Namibia</option>
+											<option value="NC">New Caledonia</option>
+											<option value="NE">Niger</option>
+											<option value="NF">Norfolk Island</option>
+											<option value="NG">Nigeria</option>
+											<option value="NI">Nicaragua</option>
+											<option value="NU">Niue</option>
+											<option value="NL">Netherlands</option>
+											<option value="NO">Norway</option>
+											<option value="NP">Nepal</option>
+											<option value="NR">Nauru</option>
+											<option value="NZ">New Zealand</option>
+											<option value="OM">Oman</option>
+											<option value="PK">Pakistan</option>
+											<option value="PA">Panama</option>
+											<option value="PN">Pitcairn</option>
+											<option value="PE">Peru</option>
+											<option value="PH">Philippines</option>
+											<option value="PW">Palau</option>
+											<option value="PG">Papua New Guinea</option>
+											<option value="PL">Poland</option>
+											<option value="PR">Puerto Rico</option>
+											<option value="KP">Korea, Democratic People&#39;s Republic of</option>
+											<option value="PT">Portugal</option>
+											<option value="PY">Paraguay</option>
+											<option value="PS">Palestine, State of</option>
+											<option value="PF">French Polynesia</option>
+											<option value="QA">Qatar</option>
+											<option value="RE">Réunion</option>
+											<option value="RO">Romania</option>
+											<option value="RU">Russian Federation</option>
+											<option value="RW">Rwanda</option>
+											<option value="SA">Saudi Arabia</option>
+											<option value="SD">Sudan</option>
+											<option value="SN">Senegal</option>
+											<option value="SG">Singapore</option>
+											<option value="GS">South Georgia and the South Sandwich Islands</option>
+											<option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+											<option value="SJ">Svalbard and Jan Mayen</option>
+											<option value="SB">Solomon Islands</option>
+											<option value="SL">Sierra Leone</option>
+											<option value="SV">El Salvador</option>
+											<option value="SM">San Marino</option>
+											<option value="SO">Somalia</option>
+											<option value="PM">Saint Pierre and Miquelon</option>
+											<option value="RS">Serbia</option>
+											<option value="SS">South Sudan</option>
+											<option value="ST">Sao Tome and Principe</option>
+											<option value="SR">Suriname</option>
+											<option value="SK">Slovakia</option>
+											<option value="SI">Slovenia</option>
+											<option value="SE">Sweden</option>
+											<option value="SZ">Swaziland</option>
+											<option value="SX">Sint Maarten (Dutch part)</option>
+											<option value="SC">Seychelles</option>
+											<option value="SY">Syrian Arab Republic</option>
+											<option value="TC">Turks and Caicos Islands</option>
+											<option value="TD">Chad</option>
+											<option value="TG">Togo</option>
+											<option value="TH">Thailand</option>
+											<option value="TJ">Tajikistan</option>
+											<option value="TK">Tokelau</option>
+											<option value="TM">Turkmenistan</option>
+											<option value="TL">Timor-Leste</option>
+											<option value="TO">Tonga</option>
+											<option value="TT">Trinidad and Tobago</option>
+											<option value="TN">Tunisia</option>
+											<option value="TR">Turkey</option>
+											<option value="TV">Tuvalu</option>
+											<option value="TW">Taiwan</option>
+											<option value="TZ">Tanzania, United Republic of</option>
+											<option value="UG">Uganda</option>
+											<option value="UA">Ukraine</option>
+											<option value="UM">United States Minor Outlying Islands</option>
+											<option value="UY">Uruguay</option>
+											<option selected="selected" value="US">United States</option>
+											<option value="UZ">Uzbekistan</option>
+											<option value="VA">Holy See (Vatican City State)</option>
+											<option value="VC">Saint Vincent and the Grenadines</option>
+											<option value="VE">Venezuela, Bolivarian Republic of</option>
+											<option value="VG">Virgin Islands, British</option>
+											<option value="VI">Virgin Islands, U.S.</option>
+											<option value="VN">Viet Nam</option>
+											<option value="VU">Vanuatu</option>
+											<option value="WF">Wallis and Futuna</option>
+											<option value="WS">Samoa</option>
+											<option value="YE">Yemen</option>
+											<option value="ZA">South Africa</option>
+											<option value="ZM">Zambia</option>
+											<option value="ZW">Zimbabwe</option>
+										</select>
+										<small id="country-error" class="error-text"></small>
+									</div>
+									<div class="form-group">
+										<label for="address1-input">Address 1</label>
+										<input name="address" type="text" tabindex="1" class="form-control long-input" id="address", value="" autocomplete="shipping address-line1">
+										<small id="address-error" class="error-text">Please fill in your Email here.</small>
+									</div>
+									<div class="form-group">
+										<label for="address2-input">Address 2</label> <small>Optional</small>
+										<input name="address2" type="text" tabindex="1" class="form-control long-input" id="address2", value="" autocomplete="shipping address-line2">
+										<small id="address2-error" class="error-text">Please fill in your Email here.</small>
+									</div>
+									<div class="form-group">
+										<label for="city-input">City</label>
+										<input type="text" name="city" tabindex="1" class="form-control short-input" id="city", value="" autocomplete="shipping locality">
+										<small id="city-error" class="error-text">Please fill in your Email here.</small>
+									</div>
+									<div class="form-group">
+										<label for="state-input">State / Province / Region</label>
+										<select autocomplete="shipping region" class="form-control short-input long-input" id="state" name="state" tabindex="1">
+											<option value="NONE">None Selected</option>
+											<option value="AL">Alabama</option>
+											<option value="AK">Alaska</option>
+											<option value="AS">American Samoa</option>
+											<option value="AZ">Arizona</option>
+											<option value="AR">Arkansas</option>
+											<option value="CA">California</option>
+											<option value="CO">Colorado</option>
+											<option value="CT">Connecticut</option>
+											<option value="DE">Delaware</option>
+											<option value="DC">District of Columbia</option>
+											<option value="FL">Florida</option>
+											<option value="GA">Georgia</option>
+											<option value="GU">Guam</option>
+											<option value="HI">Hawaii</option>
+											<option value="ID">Idaho</option>
+											<option value="IL">Illinois</option>
+											<option value="IN">Indiana</option>
+											<option value="IA">Iowa</option>
+											<option value="KS">Kansas</option>
+											<option value="KY">Kentucky</option>
+											<option value="LA">Louisiana</option>
+											<option value="ME">Maine</option>
+											<option value="MD">Maryland</option>
+											<option value="MA">Massachusetts</option>
+											<option value="MI">Michigan</option>
+											<option value="MN">Minnesota</option>
+											<option value="MS">Mississippi</option>
+											<option value="MO">Missouri</option>
+											<option value="MT">Montana</option>
+											<option value="NE">Nebraska</option>
+											<option value="NV">Nevada</option>
+											<option value="NH">New Hampshire</option>
+											<option value="NJ">New Jersey</option>
+											<option value="NM">New Mexico</option>
+											<option value="NY">New York</option>
+											<option value="NC">North Carolina</option>
+											<option value="ND">North Dakota</option>
+											<option value="MP">Northern Mariana Islands</option>
+											<option value="OH">Ohio</option>
+											<option value="OK">Oklahoma</option>
+											<option value="OR">Oregon</option>
+											<option value="PA">Pennsylvania</option>
+											<option value="PR">Puerto Rico</option>
+											<option value="RI">Rhode Island</option>
+											<option value="SC">South Carolina</option>
+											<option value="SD">South Dakota</option>
+											<option value="TN">Tennessee</option>
+											<option value="TX">Texas</option>
+											<option value="UM">United States Minor Outlying Islands</option>
+											<option value="UT">Utah</option>
+											<option value="VT">Vermont</option>
+											<option value="VI">Virgin Islands</option>
+											<option value="VA">Virginia</option>
+											<option value="WA">Washington</option>
+											<option value="WV">West Virginia</option>
+											<option value="WI">Wisconsin</option>
+											<option value="WY">Wyoming</option>
+										</select>
+										<small id="state-error" class="error-text"></small>
+									</div>
+									<div class="form-group">
+										<label for="zip-input">Zip / Postal Code</label>
+										<input type="text" tabindex="1" class="form-control very-short-input" id="zipcode" name="zipcode", value="" autocomplete="shipping postal-code">
+										<small id="zipcode-error" class="error-text">Please fill in your Email here.</small>
+									</div>
+								</div>
+							</div>
+							-->
+							<div class="row section" id="question-section">
+								<div class="col-sm-12 col-md-9">
+									<div class="form-group">
+										<h4>
+											What is your association with Cornell?*
+										</h4>
+										<span class="help-block"></span>
+										<small id="337-error" class="error-text above"></small>
+										<div class="row">
+											<div class="col-sm-6">
+												<label for="Q337-695" class="select-many-option">
+												<input id="Q337-695" name="337" type="checkbox" value="695" tabindex="1">
+												Alumnus/Alumna
+												</label>
+											</div>
+											<!-- <div class="col-sm-6">
+												<label for="Q337-696" class="select-many-option">
+												<input id="Q337-696" name="337" type="checkbox" value="696" tabindex="1">
+												Friend
+												</label>
+											</div>
+											<div class="col-sm-6">
+												<label for="Q337-697" class="select-many-option">
+												<input id="Q337-697" name="337" type="checkbox" value="697" tabindex="1">
+												Parent
+												</label>
+											</div>
+											<div class="col-sm-6">
+												<label for="Q337-698" class="select-many-option">
+												<input id="Q337-698" name="337" type="checkbox" value="698" tabindex="1">
+												Faculty/Staff
+												</label>
+											</div>
+											<div class="col-sm-6">
+												<label for="Q337-699" class="select-many-option">
+												<input id="Q337-699" name="337" type="checkbox" value="699" tabindex="1">
+												Student
+												</label>
+											</div> -->
+										</div>
+									</div>
+									<div class="form-group">
+										<h4>
+											Class Year:
+											<small class="question-subtext">Optional</small>
+										</h4>
+										<span class="help-block"></span>
+										<small id="338-error" class="error-text above"></small>
+										<input type="text" id="Q338" name="338" class="form-control short-input" tabindex="1" maxlength="255">
+									</div>
+									<div class="form-group">
+										<h4>
+											If alumnus/alumna or student, what school or program?
+											<small class="question-subtext">Optional</small>
+										</h4>
+										<span class="help-block"></span>
+										<small id="339-error" class="error-text above"></small>
+										<input type="text" id="Q339" name="339" class="form-control short-input" tabindex="1" maxlength="255">
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-9">
+									<div class="form-group">
+										<h4>If your gift is in honor or memoriam, please select below.</h4>
+										<p class="help-block"></p>
+										<div class="row">
+											<div class="col-sm-4">
+												<label for="in-none" class="select-many-option in-memorium">
+												<input type="radio" name="in_memorium" id="in-none" value="in-none" checked="true">
+													No Dedication
+												</label>
+											</div>
+											<div class="col-sm-4">
+												<label for="in-honor" class="select-many-option in-memorium">
+												<input type="radio" name="in_memorium" id="in-honor" value="in-honor">
+													In Honor of
+												</label>
+											</div>
+											<div class="col-sm-4">
+												<label for="in-memory" class="select-many-option in-memorium">
+												<input type="radio" name="in_memorium" id="in-memory" value="in-memory">
+													In Memory of
+												</label>
+											</div>
+										</div>
+										<p class="help-block"></p>
+										<div class="in-memorium-name-block" style="display:none">
+											<p>Please identify the person or organization that this gift is on behalf of:</p>
+											<span class="help-block">86 character maximum</span>
+											<input class="form-control short-input" id="in-memorium-name" name="in_memorium_name" maxlength="86">
+											<small id="in_memorium_name-error" class="error-text">Please enter dedication here.</small>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row dark-section" id="submit-section">
+								<div class="col-sm-12 col-md-9">
+									<div class="divider hidden-xs"></div>
+								  <a href="success.html"><button type="button" tabindex="1" class="donate-btn sf-submit-button js-donate-button"> Donate </button></a>
+									<!--
+									<div class="donor-wall-toggle">
+										<h4>Donor Wall Settings</h4>
+										<label for="donor-wall-show">
+											<input type="radio" tabindex="1" name="anon_don" value=1 id="donor-wall-show" checked="checked">
+											<div class="dw-text">
+												<small class="donor-wall-show-text">Display my name and donation amount on the Donor Wall.</small>
+											</div>
+										</label>
+										<label for="donor-wall-hide-name">
+											<input type="radio" tabindex="1" name="anon_don" value=2 id="donor-wall-hide-name">
+											<div class="dw-text">
+												<small class="donor-wall-hide-text">Do not display my <strong>name</strong> on the Donor Wall.</small>
+											</div>
+										</label>
+										<label for="donor-wall-hide-amount">
+											<input type="radio" tabindex="1" name="anon_don" value=3 id="donor-wall-hide-amount">
+											<div class="dw-text">
+												<small class="donor-wall-hide-text">Do not display my <strong>donation amount</strong> on the Donor Wall.</small>
+											</div>
+										</label>
+										<label for="donor-wall-hide-all">
+											<input type="radio" tabindex="1" name="anon_don" value=4 id="donor-wall-hide-all">
+											<div class="dw-text">
+												<small class="donor-wall-hide-text">Do not display <strong>my name and donation amount</strong> on the Donor Wall.</small>
+											</div>
+										</label>
+									</div>
+									-->
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="col-sm-8 col-md-4" id="pupil">
+						<div class="funding-graph">
+							<img src="img/Progress.png" alt="">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="landing-pages">
+			<div class="content">
+				<div class="landing-pages-title">Our Crowdfunding Groups</div>
+				<div class="landing-pages-list">
+					<a href="#" class="landing-page">
+						Cornell University Main
+					</a>
+					<a href="#" class="landing-page">
+						Funded Projects
+					</a>
+					<a href="#" class="landing-page">
+						Past Projects
+					</a>
+					<a href="#" class="landing-page">
+						Crowdfunding Projects
+					</a>
+					<div class="landing-page landing-page-push"></div>
+					<div class="landing-page landing-page-push"></div>
+					<div class="landing-page landing-page-push"></div>
+					<div class="landing-page landing-page-push"></div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="content">
+				<div class="footer-links clearfix">
+					<ul class="basic-list footer-list pull-left width-quarter sm-width-full">
+						<li class="footer-list-title">
+							<a href="#">
+								Cornell University Crowdfunding
+							</a>
+						</li>
+						<li class="footer-list-item">
+							<a href="#" class="footer-list-link">
+								FAQ
+							</a>
+						</li>
+						<li class="footer-list-item">
+							<a href="#" class="footer-list-link">
+								About
+							</a>
+						</li>
+						<li class="footer-list-item">
+							<a class="footer-list-link" href="#">
+								Giving Day
+							</a>
+						</li>
+						<li class="footer-list-item">
+							<a class="footer-list-link" href="#">
+								Giving Website
+							</a>
+						</li>
+						<li class="footer-list-item">
+							<a href="mailto:#@#.com" class="footer-list-link">
+								Contact Us
+							</a>
+						</li>
+					</ul>
+					<ul class="basic-list footer-list sf-footer-list pull-right text-right width-half sm-width-full">
+						<li class="footer-list-title">
+							<a href="#" target="_blank">
+								ElevateMe
+							</a>
+						</li>
+						<li class="footer-list-item">
+							<a href="#" target="_blank" class="footer-list-link">
+								Terms
+							</a>
+						</li>
+						<li class="footer-list-item">
+							<a href="#" target="_blank" class="footer-list-link">
+								Privacy Policy
+							</a>
+						</li>
+						<li class="footer-list-item">
+							<a href="mailto:#@#.com" class="footer-list-link">
+								Technical Support
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-brand">
+					<div class="footer-brand-legal">
+						© 2017 Cornell University, All Rights Reserved
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+		<script src="js/plugins.js"></script>
+		<script src="js/main.js"></script>
+		<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+		<script>
+			window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+			ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+		</script>
+		<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+	</body>
+</html>
