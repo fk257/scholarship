@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="img/season-change.jpg" type="image/x-icon">
+		<title>HealthCare</title>
+
+	    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+	    <!-- <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+	    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700' rel='stylesheet' type='text/css'> -->
+	    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+	    <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600' rel='stylesheet' type='text/css'>
+	    <link href='https://fonts.googleapis.com/css?family=Cabin:400,400italic,500italic,600,500,600italic,700|Roboto+Condensed:400,700|Open+Sans:400,600,700|PT+Sans:400,700' rel='stylesheet' type='text/css'>
+		
+		<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		
+	</head>
+
+	<body>
+		<section class= "navs">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  				<div class="container-fluid">
+    				<!-- Brand and toggle get grouped for better mobile display -->
+    				<div class="navbar-header">
+      					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+	      				</button>
+      					<a class="navbar-brand logo" href="index.html">Fund Me</a></div>
+		
+		    		<!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				    	<ul class="nav navbar-nav navbar-right">
+
+					        <li><a href="index.html">Home</a></li>
+					        <li><a href="univerisities.html">Universitiy</a></li>
+					        <li><a href="scholarship.html">Scholarship</a></li>
+							<li><a href="faq.html">FAQs</a></li>
+							<li><a href="gallery.html">Story</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+				      	</ul>
+				    </div><!-- navbar-collapse -->
+				</div><!-- container-fluid -->
+			</nav>
+		</section>
+		<section id= "contact" class="text-center contact-section">
+			<div class="contact-wrapper section-wrapper">
+				<div class="container">
+					<div class= "row">
+						<h2 class="contact-headline"><span>Contact US</span></h2>
+					</div>
+					<div class="row">
+						<div class="sub-headline">
+							<span><a href="index.html" style="color:rgb(180,181,183)">Home</a>/contact</span>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</section>
+		<section class="contact-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 contact-article">
+						<h2>Have A Question?</h2>
+						<p class="contact-left-content-p">
+							Mauris nec ligula dui, fermentum nisl ut magna dolor, rhoncus wisi. In lacus sagittis luctus, nisl eros, sit amet tempor et, accumsan eget, pede. Suspendisse est. Ut rhoncus eu, pede. Vestibulum ante ipsum dolor lorem, iaculis mi. Pellentesque eu urna eget dolor. Duis luctus a, dolor. Duis ac sapien.
+						</p>
+						<p class="contact-left-content-p">
+							Praesent lacinia dapibus, accumsan vesti bulum. Pellen tesque molestie mollis.Estibulum dapibus, maurimalesfames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus ultricies gravida vitae...
+						</p>
+					</div>
+					<div class="col-md-6 contact-form">
+						<h2>Leave A Message</h2>
+						<div id="contactFormResponse">
+							
+						</div>
+						<form id="contactForm" action="php/contact_form.php" method="post" enctype="multipart/formdata">
+							<div class="form-group">
+							    <input type="text" class="form-control contact-form-control" name="name" id="name" placeholder="Full Name">
+							</div>
+							<div class="form-group">
+							    <input type="email" class="form-control contact-form-control" name="email" id="email" placeholder="Email Address">
+							</div>
+							<div class="form-group">
+							    <textarea class="form-control contact-form-control" type="text" id="message" name="message" placeholder="Type your message here..."></textarea>
+							</div>
+							<button type="submit" name="submit" id="cfsubmit" class="contact-form-btn btn btn-primary" required>Send Message</button>
+						</form>
+					</div>
+					
+				</div>
+				<div class="row">
+					<h2 class='text-center contact-details-heading'>Contact Details</h2>
+					<div class="col-md-6">
+						<div id="map-canvas" class="contact-wrapper"></div>
+					</div>
+					<div class="col-md-6 contact-address">
+						<div class="contact-block clearfix">
+							<div class="left-block">
+								<i class="fa fa-map-marker"></i>
+							</div>
+							<div class="right-block">
+								<h4 class="contact-block-heading">Office Address</h4>
+								<p class="contact-block-paragrap">Hoffman Parkway, P.o Box 353 Mountain View. United States of America. </p>
+							</div>
+						</div>
+						<div class="contact-block clearfix">
+							<div class="left-block">
+								<i class="fa fa-phone"></i>
+							</div>
+							<div class="right-block">
+								<h4 class="contact-block-heading">Phone</h4>
+								<p class="contact-block-paragrap">Local: 1-800-123-hello</p>
+								<p class="contact-block-paragrap">Mobile: 1-800-123-hello</p>
+							</div>
+						</div>
+						<div class="contact-block clearfix">
+							<div class="left-block">
+								<i class="fa fa-envelope-o"></i>
+							</div>
+							<div class="right-block">
+								<h4 class="contact-block-heading">Email Address</h4>
+								<p class="contact-block-paragrap">info@Miracle.com</p>
+								<p class="contact-block-paragrap">example@Miracle.com</p>
+							</div>
+						</div>
+
+						<ul class="contact left-align-contact">
+				        	<li class= "socials-icons socials-icons-square text-center">
+								<a href="#" data-toggle="tooltip" title="Share in Facebook" class=""><i class="fa fa-facebook"></i></a>
+							</li>
+							<li class= "socials-icons socials-icons-square text-center">
+								<a href="#" data-toggle="tooltip" title="Share in Twitter" class=""><i class="fa fa-twitter"></i></a>
+							</li>
+							<li class= "socials-icons socials-icons-square text-center">
+								<a href="#" data-toggle="tooltip" title="Share in Google +" class=""><i class="fa fa-google-plus"></i></a>
+							</li>
+							<li class= "socials-icons socials-icons-square text-center">
+								<a href="#" data-toggle="tooltip" title="Share in Instagram" class=""><i class="fa fa-instagram"></i></a>
+							</li> 
+							<li class= "socials-icons socials-icons-square text-center">
+								<a href="#" data-toggle="tooltip" title="Share in Pinterest" class=""><i class="fa fa-pinterest"></i></a>
+							</li>
+							<li class= "socials-icons socials-icons-square text-center">
+								<a href="#" data-toggle="tooltip" title="Connect with Skype" class=""><i class="fa fa-skype"></i></a>
+							</li>
+							<li class= "socials-icons socials-icons-square text-center">
+								<a href="#" data-toggle="tooltip" title="Share in Instagram" class=""><i class="fa fa-instagram"></i></a>
+							</li>
+							<li class= "socials-icons socials-icons-square text-center">
+								<a href="#" data-toggle="tooltip" title="Share in Pinterest" class=""><i class="fa fa-pinterest"></i></a>
+							</li>
+				      	</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<ul class="text-center contact">
+				        	<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Share in Facebook" class="facebook"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Share in Twitter" class="twitter"><i class="fa fa-twitter"></i></a>
+							</li>
+							<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Share in Google +" class="google-plus"><i class="fa fa-google-plus"></i></a>
+							</li>
+							<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Share in Instagram" class="instagram"><i class="fa fa-instagram"></i></a>
+							</li>
+							<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Share in Pinterest" class="pinterest"><i class="fa fa-pinterest"></i></a>
+							</li>
+							<li class= "socials-icons">
+								<a href="#" data-toggle="tooltip" title="Connect with Skype" class="skype"><i class="fa fa-skype"></i></a>
+							</li>
+				      	</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copy-right-text text-center">
+							&copy; Copyright 2014, Your Website Link. Theme by <a href="https://themewagon.com/">ThemeWagon</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="assets/js/wow.min.js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script type="text/javascript" src="assets/js/contact.js"></script>
+		<script type="text/javascript" src="assets/js/script.js"></script>
+		<script>
+	      function initialize() {
+	        var mapCanvas = document.getElementById('map-canvas');
+	        var mapOptions = {
+	          center: new google.maps.LatLng(24.900392, 91.853181),
+	          zoom: 16,
+	          mapTypeId: google.maps.MapTypeId.ROADMAP,
+	          scrollwheel:  false
+	        }
+	        var map = new google.maps.Map(mapCanvas, mapOptions)
+	      }
+	      google.maps.event.addDomListener(window, 'load', initialize);
+	    </script>
+
+		<script>
+      		new WOW().init();
+		</script>
+
+
+	</body>
+</html>
