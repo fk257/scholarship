@@ -132,6 +132,7 @@ h1, h2, h3, h4, h5, h6
     background-color: rgba(45, 53, 56, 0.78);
     padding: 78px 0px;
     margin-top: 65px;
+
 }
 
 
@@ -410,7 +411,7 @@ li:last-child
 }
 .slider-1
 {
-    background: url(../img/slider-1.jpg);
+    background: url(../img/women-coder.jpg);
     width: 100%;
     background-size: cover;
     vertical-align: middle;
@@ -608,7 +609,7 @@ section.starting-text
 /* ========================================= 2. Service=========================================== */
 .service-title
 {
-    background: url(../img/HealthCare_Services.jpg);
+    background: url(../img/Women_coder.jpg);
     background-size: cover;
     vertical-align: middle;
     background-position: center;
