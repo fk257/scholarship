@@ -66,7 +66,7 @@ li a
 }
 a 
 {
-    color: darkcyan;
+    color: #B31B1B;
 }
 a:hover
 {
@@ -82,8 +82,8 @@ a:hover
     border-radius: 0px;
 }
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
-    background-color: #46A1B4;
-    border-color: #5FA8AB;
+    background-color: #B31B1B;
+    border-color: #B6311B;
 }
 .pagination>li>a, .pagination>li>span {
 
@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6
 .navbar-default
 {
     /*background-color: #267D90;*/
-    background-color: #46a1b4;
+    background-color: #B31B1B;
     border: 0px;
 }
 .navbar-default .navbar-header .logo
@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6
     color: #fff;
     font-family: 'PT Sans', sans-serif;
     font-size: 16pt;
-    background-color: rgba(64, 140, 156, 1);
+    background-color: #B6311B;
 }
 .dropdown-menu>li{
     display: block;
@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6
 .dropdown-menu {
     border-radius: 0;
     padding: 0;
-    background-color: #46a1b4;
+    background-color: #B6311B;
     border:0px;
     opacity: 0.7;
     color: #fff;
@@ -208,12 +208,12 @@ h1, h2, h3, h4, h5, h6
 .navbar-default .navbar-nav>.active
 {
     /*background-color: rgba(5, 207, 252, 0.62);*/
-    background-color: rgba(64, 140, 156, 1);
+    background-color: #6B190B;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus 
 {
     color: #fff;
-    background-color: rgba(64, 140, 156, 1);
+    background-color: #B31B1B;
 }
 li:last-child 
 {
@@ -239,7 +239,7 @@ li:last-child
 }
 .navbar-default .navbar-nav>.active:hover 
 {
-    background-color: rgba(5, 207, 252, 0.62);
+    background-color: rgba(179,27,27,0.79);
     border-bottom: none;
 }
 
@@ -326,7 +326,7 @@ li:last-child
 }
 .appointment .header 
 {
-    background-color: #46a1b4;
+    background-color: #B31B1B;
     min-height: 99px;
     height: auto !important;
     padding: 10px 23px 0px;
@@ -343,7 +343,7 @@ li:last-child
 }
 .appointment .header h2, .appointment .header .number 
 {
-    text-shadow: 1px 1px 0px #20606D;
+    text-shadow: 1px 1px 0px #491E16;
     color: #ffffff;
     font-size: 24px;
     line-height: 40px;
@@ -355,7 +355,7 @@ li:last-child
     height: 32px;
     border-radius: 16px;
     border: 2px solid #fff;
-    background: #6DBEC2;
+    background: #E2543C;
     color: white;
     padding-top: 3px;
     padding-left: 6px;
@@ -437,14 +437,14 @@ li:last-child
 {
     font-size: 54px;
     text-transform: uppercase;
-    color: rgb(70,161,180);
+    color: #E2543C;
 
 }
 .slider-inner-text p
 {
     font-size: 36px;
     text-transform: uppercase;
-    color: rgb(70,161,180);
+    color: #E2543C;
     background-color: #fff;
 }
 .slider-inner h1 span,.slider-inner p span{
@@ -459,7 +459,7 @@ li:last-child
 
 section.starting-text 
 {
-    background-color: rgba(70, 161, 180, 0.82);
+    background-color: rgba(179,27,1,0.52) ;
     /*background: -webkit-linear-gradient(left top, #085A6C , #3E8B90);
     background: -o-linear-gradient(bottom right, #085A6C , #3E8B90);
     background: -moz-linear-gradient(bottom right, #085A6C , #3E8B90);
@@ -493,7 +493,7 @@ section.starting-text
 .welcome-btn {
     background-color: #fff;
     margin-top: 20px;
-    color: #46a1b4;
+    color: ##b31b1b;
     border-radius: 0px;
     font-size: 16px;
     transition: all 0.3s ease-in;
@@ -724,14 +724,14 @@ section.starting-text
 {
     font-size: 16pt;
     text-transform: uppercase;
-    color: rgb(70,161,180);
+    color: #b31b1b;
 }
 .faq-top-heading{padding-bottom: 50px;}
 .faq-top-heading span{
     font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
     font-size: 36px;
-    color: rgb(70,161,180);
+    color: #b31b1b ;
     text-transform: uppercase;
     font-weight: 400;
     padding-bottom: 50px;
@@ -1658,7 +1658,7 @@ textarea.contact-form-control{
 #footer
 {
     /*background-color: #085A6C;*/
-    background-color: #46A1B4;
+    background-color: #B6311B;
     /*background: -webkit-linear-gradient(left top, #085A6C , #3E8B90);
     background: -o-linear-gradient(bottom right, #085A6C , #3E8B90);
     background: -moz-linear-gradient(bottom right, #085A6C , #3E8B90);
@@ -1785,7 +1785,7 @@ li.socials-icons
     border-radius: 50%;
     border: 2px solid #fff;
     /* background: #6DBEC2; */
-    background-color: #49C1DC;
+    background-color: #E2543C;
     float: left;
     color: white;
     padding-top: 3px;
@@ -1793,14 +1793,14 @@ li.socials-icons
 }
 .facebook:hover
 {
-    background-color: #46629E;
-    box-shadow: 0 0 0 2px #46629E;
+    background-color: #AF0000;
+    box-shadow: 0 0 0 2px #AF0000;
     color: white;
 }
 .twitter:hover
 {
-    background-color: #0EAACE;
-    box-shadow: 0 0 0 2px #0EAACE;
+    background-color: #AF0000;
+    box-shadow: 0 0 0 2px #AF0000;
     color: white;
 }
 .google-plus:hover
@@ -1811,20 +1811,20 @@ li.socials-icons
 }
 .instagram:hover
 {
-    background-color: #3f729b;
-    box-shadow: 0 0 0 2px #3f729b;
+    background-color: #AF0000;
+    box-shadow: 0 0 0 2px #AF0000;
     color: white;
 }
 .pinterest:hover
 {
-    background-color: #CB2027;
-    box-shadow: 0 0 0 2px #CB2027;
+    background-color: #AF0000;
+    box-shadow: 0 0 0 2px #AF0000;
     color: white;
 }
 .skype:hover
 {
-    background-color: #01AEF2;
-    box-shadow: 0 0 0 2px #01AEF2;
+    background-color: #AF0000;
+    box-shadow: 0 0 0 2px #AF0000;
     color: white;
 }
 li.socials-icons-square{

@@ -66,7 +66,7 @@ li a
 }
 a 
 {
-    color: darkcyan;
+    color: #b31b1b;
 }
 a:hover
 {
@@ -82,12 +82,12 @@ a:hover
     border-radius: 0px;
 }
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
-    background-color: #46A1B4;
-    border-color: #5FA8AB;
+    background-color: #b31b1b;
+    border-color: #b31b1b;
 }
 .pagination>li>a, .pagination>li>span {
 
-color: #085A6C;
+color: #780E10;
 background-color: #fff;
 border: 1px solid #ddd;
 }
@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6
 .navbar-default
 {
     /*background-color: #267D90;*/
-    background-color: #46a1b4;
+    background-color: #b31b1b;
     border: 0px;
 }
 .navbar-default .navbar-header .logo
@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6
     color: #fff;
     font-family: 'PT Sans', sans-serif;
     font-size: 16pt;
-    background-color: rgba(64, 140, 156, 1);
+    background-color: #b31b1b;
 }
 .dropdown-menu>li{
     display: block;
@@ -210,7 +210,7 @@ button.navbar-toggle {
 .dropdown-menu {
     border-radius: 0;
     padding: 0;
-    background-color: #46a1b4;
+    background-color: #b31b1b;
     border:0px;
     opacity: 0.7;
     color: #fff;
@@ -219,12 +219,12 @@ button.navbar-toggle {
 .navbar-default .navbar-nav>.active
 {
     /*background-color: rgba(5, 207, 252, 0.62);*/
-    background-color: rgba(64, 140, 156, 1);
+    background-color: #6B190B;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus 
 {
     color: #fff;
-    background-color: rgba(64, 140, 156, 1);
+    background-color: #6B190B;
 }
 li:last-child 
 {
@@ -250,7 +250,7 @@ li:last-child
 }
 .navbar-default .navbar-nav>.active:hover 
 {
-    background-color: rgba(5, 207, 252, 0.62);
+    background-color: rgba(179,27,1,0.52);
     border-bottom: none;
 }
 
@@ -337,7 +337,7 @@ li:last-child
 }
 .appointment .header 
 {
-    background-color: #46a1b4;
+    background-color: #E2543C;
     min-height: 99px;
     height: auto !important;
     padding: 10px 23px 0px;
@@ -354,7 +354,7 @@ li:last-child
 }
 .appointment .header h2, .appointment .header .number 
 {
-    text-shadow: 1px 1px 0px #20606D;
+    text-shadow: 1px 1px 0px #6B190B;
     color: #ffffff;
     font-size: 24px;
     line-height: 40px;
@@ -366,7 +366,7 @@ li:last-child
     height: 32px;
     border-radius: 16px;
     border: 2px solid #fff;
-    background: #6DBEC2;
+    background: #b31b1b;
     color: white;
     padding-top: 3px;
     padding-left: 6px;
@@ -438,14 +438,14 @@ li:last-child
 {
     font-size: 54px;
     text-transform: uppercase;
-    color: rgb(70,161,180);
+    color: #B31B1B;
 
 }
 .slider-inner-text p
 {
     font-size: 36px;
     text-transform: uppercase;
-    color: rgb(70,161,180);
+    color: #E2543C;
     background-color: #fff;
 }
 .slider-inner h1 span,.slider-inner p span{
@@ -460,7 +460,7 @@ li:last-child
 
 section.starting-text 
 {
-    background-color: rgba(70, 161, 180, 0.82);
+    background-color: rgba(179,27,27,0.58);
     /*background: -webkit-linear-gradient(left top, #085A6C , #3E8B90);
     background: -o-linear-gradient(bottom right, #085A6C , #3E8B90);
     background: -moz-linear-gradient(bottom right, #085A6C , #3E8B90);
@@ -494,7 +494,7 @@ section.starting-text
 .welcome-btn {
     background-color: #fff;
     margin-top: 20px;
-    color: #46a1b4;
+    color: #B31B1B;
     border-radius: 0px;
     font-size: 16px;
     transition: all 0.3s ease-in;
@@ -725,14 +725,14 @@ section.starting-text
 {
     font-size: 16pt;
     text-transform: uppercase;
-    color: rgb(70,161,180);
+    color: #B6311B;
 }
 .faq-top-heading{padding-bottom: 50px;}
 .faq-top-heading span{
     font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
     font-size: 36px;
-    color: rgb(70,161,180);
+    color: #B31B1B;
     text-transform: uppercase;
     font-weight: 400;
     padding-bottom: 50px;
@@ -775,16 +775,16 @@ section.starting-text
     width: 150px;
     height: 150px;
     border-radius: 75px;
-    border: 2px solid #6DBEC2;
+    border: 2px solid #E2543C;
     background: #fff;
-    color: #6DBEC2;
+    color: #E2543C;
     padding-top: 38px;
     transition: all 0.7s ease 0s;
 }
 .about-service h3 
 {
     padding: 12px 0px;
-    color: darkcyan;
+    color: #b31b1b;
 }
 
 .about-service p 
@@ -796,11 +796,11 @@ section.starting-text
 .service:hover .service-icon i
 {
     color: white;
-    background-color: #6DBEC2;
+    background-color: #E2543C;
 }
 .service:hover .about-service h3
 {
-    color: #02A2B6;
+    color: #B6311B;
 }
 .special-service
 {
@@ -863,14 +863,14 @@ section.starting-text
 .service-rm-btn
 {
     background-color: transparent;
-    color: #46a1b4;
+    color: #B31B1B;
     border-radius: 0px;
     font-size: 15px;
     transition: all 0.3s ease-in;
     margin: 4px 0px 0px 5px;
-    border-color: #46a1b4;
+    border-color: #B31B1B;
     padding: 5px 25px;
-    border-color: #46a1b4;
+    border-color: #B31B1B;
     border-radius: 50px;
     font-family: 'PT Sans', sans-serif;
     text-transform: uppercase;
@@ -878,7 +878,7 @@ section.starting-text
 }
 .cmn-btn{
     padding: 10px 25px;
-    border-color: #46a1b4;
+    border-color: #B6311B;
     border-radius: 50px;
     font-family: 'PT Sans', sans-serif;
     text-transform: uppercase;
@@ -889,7 +889,7 @@ section.starting-text
     /* background-color: #46a1b4; */
     background-color: rgb(0, 139, 168);
     color: #fff;
-    border-color: #3A90CD;
+    border-color: #B31B1B;
 }
 .send-services{
     margin-bottom: 42px;
@@ -926,7 +926,7 @@ section.starting-text
     color: #fff;
 }
 .main-title {
-    background-color: rgb(47, 79, 79);
+    background-color: #6B190B;
     display: inline-block;
     padding: 23px 70px;
     float: right;
@@ -935,7 +935,7 @@ section.starting-text
 {
     padding: 30px;
     float: right;
-    background-color: darkslategrey;
+    background-color: #491E16;
 }
 .doctor-list
 {
@@ -1028,14 +1028,14 @@ section.starting-text
 /* -------------------------------------- 3.2 job --------------------------------------------- */
 #job
 {
-    background: url(../img/ridgeviewmedicalclinic.jpg) 50% 0 no-repeat fixed;
+/*    background: url(../img/ridgeviewmedicalclinic.jpg) 50% 0 no-repeat fixed;*/
     width: 100%;
     background-size: cover;
     margin-top: 20px;
     color: white;
 }
 .job-wrapper {
-    background-color: rgba(57,131,147,1);
+    background-color: #6B190B;
     padding-top: 30px;
 }
 #job h2 {
@@ -1308,17 +1308,17 @@ main p {
     padding: 0px;
     font-family: 'PT Sans',sans-serif;
     font-size: 16px;
-    color: rgb(77,176,205);
+    color: rgba(182,49,27,1.00);
 }
 .rm-btn
 {
     background-color: transparent;
     margin-top: 20px;
-    color: #46a1b4;
+    color: #B31B1B;
     font-size: 16px;
     transition: all 0.3s ease-in;
     padding: 10px 25px;
-    border-color: #46a1b4;
+    border-color: #B31B1B;
     border-radius: 50px;
     font-family: 'PT Sans', sans-serif;
     text-transform: uppercase;
@@ -1326,15 +1326,15 @@ main p {
 }
 .rm-btn:hover
 {
-    background-color: #46a1b4;
+    background-color: #B31B1B;
     color: #fff;
-    border-color: #3A90CD;
+    border-color: #B6311B;
 }
 .blog-rm-btn 
 {
     /* background-color: transparent; */
-    background-color: #46a1b4;
-    border-color: #A7D1D8;
+    background-color: #B31B1B;
+    border-color: #A7D1D;
     /* color: #46a1b4; */
     color: #fff;
     border-radius: 0px;
@@ -1344,9 +1344,9 @@ main p {
 .blog-rm-btn:hover 
 {
     /* background-color: #085A6C; */
-    background-color: darkcyan;
+    background-color: #B31B1B;
     color: #fff;
-    border-color: #3A90CD;
+    border-color: #B6311B;
 }
 
 /* ========================================== 6. Gallery========================================== */
@@ -1375,7 +1375,7 @@ main p {
 .contact-section .sub-headline {
     font-size: 16pt;
     text-transform: uppercase;
-    color: rgb(70,161,180);
+    color: rgba(226,84,60,1.00);
 }
 .gallery-content
 {
@@ -1390,12 +1390,12 @@ main p {
 .gallery-btn
 {
     background-color: transparent;
-    color: #46a1b4;
+    color: #B31B1B;
     border-radius: 0px;
     font-size: 15px;
     transition: all 0.3s ease-in;
     margin: 4px 0px 0px 5px;
-    border-color: #46a1b4;
+    border-color: #B31B1B;
     padding: 10px 25px;
     border-color: transparent;
     border-radius: 50px;
@@ -1408,7 +1408,7 @@ main p {
     border: 1px;
     background-color: transparent;
     color: #46a1b4;
-    border-color: #46a1b4;
+    border-color: #B31B1B;
     border: 1px;
 }
 .isotope
@@ -1459,7 +1459,7 @@ main p {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     opacity: 0;
-    background-color: rgba(96, 130, 163, 0.86);
+    background-color: rgba(179,27,27,0.58);
     width: 72%;
     padding-left: 20px;
 }
@@ -1513,7 +1513,7 @@ textarea.contact-form-control{
     font-family: 'Open Sans',sans-serif;
     color: rgb(255,255,255);
     font-weight: 400;
-    background-color: #46a1b4;
+    background-color: #B31B1B;
     text-transform: uppercase;
     font-size: 13px;
     padding: 10px 50px;
@@ -1526,7 +1526,7 @@ textarea.contact-form-control{
 .contact-form-btn:hover,.contact-form-btn:focus,.contact-form-btn.active,.contact-form-btn.active:hover,contact-form-btn.active:focus{
     color: rgb(255,255,255);
     font-weight: 400;
-    background-color: #46a1b4;
+    background-color: #B31B1B;
     border: 0px;
 }
 .contact-article h2{
@@ -1555,7 +1555,7 @@ textarea.contact-form-control{
     width: 35px;
     height: 35px;
     border-radius: 50px;
-    background-color: #46a1b4;
+    background-color: #B31B1B;
     color: #fff;
 }
 .right-block {
@@ -1636,7 +1636,7 @@ textarea.contact-form-control{
 }
 .quick-contact span 
 {
-    color: rgb(73, 77, 123);
+    color: #6B190B;
 }
 .quick-contact {
     font-size: 17px;
@@ -1657,7 +1657,7 @@ textarea.contact-form-control{
 #footer
 {
     /*background-color: #085A6C;*/
-    background-color: #46A1B4;
+    background-color: #B6311B;
     /*background: -webkit-linear-gradient(left top, #085A6C , #3E8B90);
     background: -o-linear-gradient(bottom right, #085A6C , #3E8B90);
     background: -moz-linear-gradient(bottom right, #085A6C , #3E8B90);
@@ -1720,7 +1720,7 @@ textarea.contact-form-control{
     border-top-right-radius: 0px;
 }
 .panel-default.active .panel-heading {
-    background-color: #46A1B4;
+    background-color: #B6311B;
     color: #fff;
 
 }
@@ -1728,13 +1728,13 @@ textarea.contact-form-control{
     color: #fff;
 }
 .panel-default.active{
-    border-color: #46A1B4;
+    border-color: #B6311B;
 }
 .panel-default.active .panel-body{
-    border-bottom: 1px solid #46A1B4;
+    border-bottom: 1px solid #B6311B;
 }
 .panel-heading {
-    background-color: #46A1B4;
+    background-color: #B31B1B;
     color: #fff;
 
 }
@@ -1748,7 +1748,7 @@ textarea.contact-form-control{
     text-decoration: none;
 }
 .panel-title>a:hover, .panel-title>a:focus {
-    color: #2a6496;
+    color: #6B190B;
     text-decoration: none;
 }
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
@@ -1759,9 +1759,9 @@ textarea.contact-form-control{
     padding: 35px;
 }
 .gallery-btn:hover, .gallery-btn:focus, .gallery-btn:active, .gallery-btn.active {
-    border: 1px solid #46a1b4;
+    border: 1px solid #B31B1B;
     background-color: transparent;
-    color: #46a1b4;
+    color: #B31B1B
 }
 .contact 
 {
@@ -1784,7 +1784,7 @@ li.socials-icons
     border-radius: 50%;
     border: 2px solid #fff;
     /* background: #6DBEC2; */
-    background-color: #49C1DC;
+    background-color: #E2543C;
     float: left;
     color: white;
     padding-top: 3px;
@@ -1792,14 +1792,14 @@ li.socials-icons
 }
 .facebook:hover
 {
-    background-color: #46629E;
-    box-shadow: 0 0 0 2px #46629E;
+    background-color: #AF0000;
+    box-shadow: 0 0 0 2px #AF0000;
     color: white;
 }
 .twitter:hover
 {
-    background-color: #0EAACE;
-    box-shadow: 0 0 0 2px #0EAACE;
+    background-color: #AF0000;
+    box-shadow: 0 0 0 2px #AF0000;
     color: white;
 }
 .google-plus:hover
@@ -1810,20 +1810,20 @@ li.socials-icons
 }
 .instagram:hover
 {
-    background-color: #3f729b;
-    box-shadow: 0 0 0 2px #3f729b;
+    background-color: #AF0000;
+    box-shadow: 0 0 0 2px #AF0000;
     color: white;
 }
 .pinterest:hover
 {
-    background-color: #CB2027;
-    box-shadow: 0 0 0 2px #CB2027;
+    background-color: #AF0000;
+    box-shadow: 0 0 0 2px #AF0000;
     color: white;
 }
 .skype:hover
 {
-    background-color: #01AEF2;
-    box-shadow: 0 0 0 2px #01AEF2;
+    background-color: #AF0000;
+    box-shadow: 0 0 0 2px #AF0000;
     color: white;
 }
 li.socials-icons-square{
@@ -1836,7 +1836,7 @@ li.socials-icons-square{
 }
 .socials-icons-square a:hover{
     border-radius: 0px;
-    background-color: #46A1B4;
+    background-color: #B31B1B;
     color: #fff;
 }
 
