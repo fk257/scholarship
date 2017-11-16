@@ -154,6 +154,8 @@ h1, h2, h3, h4, h5, h6
 .logo
 {
     font-family: 'Dosis', sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
 }
 .nav.navbar-nav 
 {
@@ -421,7 +423,7 @@ li:last-child
 }
 .slider-1
 {
-    background: url(../img/head_slider1.jpg) center center no-repeat;
+    background: url(../img/cornell-campus.jpg) center center no-repeat;
     background-size: cover;
 }
 .slider-2
@@ -460,7 +462,7 @@ li:last-child
 
 section.starting-text 
 {
-    background-color: rgba(179,27,27,0.58);
+    background-color: rgba(122, 108, 102, 0.11);
     /*background: -webkit-linear-gradient(left top, #085A6C , #3E8B90);
     background: -o-linear-gradient(bottom right, #085A6C , #3E8B90);
     background: -moz-linear-gradient(bottom right, #085A6C , #3E8B90);
@@ -1231,7 +1233,7 @@ section.starting-text
 }
 .blog-title
 {
-    background: url(../img/head_slider1.jpg);
+    background: url(../img/cornell-campus.jpg);
     background-size: cover;
     vertical-align: middle;
     color: #F0FEFF;
@@ -1657,7 +1659,7 @@ textarea.contact-form-control{
 #footer
 {
     /*background-color: #085A6C;*/
-    background-color: #B6311B;
+    background-color: #b31b1b;
     /*background: -webkit-linear-gradient(left top, #085A6C , #3E8B90);
     background: -o-linear-gradient(bottom right, #085A6C , #3E8B90);
     background: -moz-linear-gradient(bottom right, #085A6C , #3E8B90);
