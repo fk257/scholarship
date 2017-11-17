@@ -34,6 +34,9 @@ Text Domain:
 
 
 /*============================================Global============================================ */
+.linkedin{
+	background-image: url("/HTML/assets/img/LinkedIn_Background.png")
+}
 .navbar-toggle  {
     background-color: #fff;
 }
