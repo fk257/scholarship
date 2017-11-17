@@ -429,7 +429,7 @@ li:last-child
 }
 .slider-1
 {
-    background: url(../img/main1.jpg) center center no-repeat;
+    background: url(../img/cornell-campus.jpg) center center no-repeat;
     background-size: cover;
 }
 .slider-2
@@ -1241,7 +1241,7 @@ section.starting-text
 }
 .blog-title
 {
-    background: url(../img/main1.jpg);
+    background: url(../img/cornell-campus.jpg);
     background-size: cover;
     vertical-align: middle;
     color: #F0FEFF;
