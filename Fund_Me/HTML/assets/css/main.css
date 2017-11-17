@@ -34,6 +34,9 @@ Text Domain:
 
 
 /*============================================Global============================================ */
+.img-fit{
+	object-fit: contain;
+}
 .linkedin{
 	background-image: url("/HTML/assets/img/LinkedIn_Background.png")
 }
@@ -524,14 +527,15 @@ section.starting-text
 
 .service-heading 
 {
-    padding: 20px 0px;
-    color: rgb(68,68,68);
-    font-size: 24pt;
+/*    padding: 10px 0px;*/
+    color: #6B190B;
+    font-size: 20pt;
 }
 
 .service-img 
 {
     opacity: 0.9;
+	height: 200px;
 
 }
 /* .fa-facebook , .fa-twitter ,.fa-google-plus , .fa-instagram , .fa-pinterest , .fa-skype{
@@ -544,9 +548,10 @@ section.starting-text
 .hservice {
     /*background: rgb(242, 247, 255);*/
     background-color: rgba(244, 247, 253, 1);
-    margin: 30px 0px;
-    padding-bottom: 30px;
+    margin: 10px;
+    padding-bottom: 10px;
     transition: all 0.3s ease-in;
+	height: 450px;
 }
 .hservice:hover 
 {
