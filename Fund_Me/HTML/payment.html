@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--		<link rel="shortcut icon" href="img/season-change.jpg" type="image/x-icon">-->
-<title>Fund Me</title>
+<title>Fund Match</title>
 <link href="http://fonts.googleapis.com/css?family=Abel" rel='stylesheet' type='text/css'>
 <!-- <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
 	    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700' rel='stylesheet' type='text/css'> -->
@@ -27,12 +27,12 @@
 <body>
 <section class= "navs">
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container-fluid"> 
+    <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> </button>
         <a class="navbar-brand logo" href="index.html"> FundMatch </a> </div>
-      
+
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
@@ -42,9 +42,9 @@
           <li><a href="User_profile.html">Profile</a></li>
         </ul>
       </div>
-      <!-- navbar-collapse --> 
+      <!-- navbar-collapse -->
     </div>
-    <!-- container-fluid --> 
+    <!-- container-fluid -->
   </nav>
 </section>
 	<section style="height:30px">
@@ -69,7 +69,7 @@
           </div>
           <div class="row">
             <div class = "col-md-12">
-              <h3  >Who is Donating</h3>
+              <h3>Donor Info</h3>
             </div>
           </div>
           <div class="row">
@@ -95,7 +95,7 @@
           </div>
           <div class="row">
             <div class = "col-md-12">
-              <h3 >Payment Detail</h3>
+              <h3 >Payment Info</h3>
             </div>
           </div>
           <div class="row">
@@ -121,8 +121,8 @@
             </div>
           </div>
           <div class="row center-block">
-            <div class="col-md-12 center-block">
-              <button class="btn btn-lg btn-success send-services" style="box-sizing: 46px" >Donate</button>
+            <div class="col-md-12 center-block" style="text-align:center;">
+              <button class="btn btn-lg btn-success send-services" style=" width:300px; height:50px; font-size:20px;" >DONATE</button>
             </div>
           </div>
         </div>
@@ -132,25 +132,25 @@
         <div class="container">
           <div class="row">
             <div class = "col-md-5">
-              <h1 class="row text-center"> <a href="#"> Women In STEM </a> </h1>
+              <h1 class="row text-center"> <a href="#">Women In Tech</a></h1>
             </div>
           </div>
           <div class="row">
             <div class = "col-md-5">
               <ul class="list-inline info">
-                <li><i class="fa fa-user-md"></i> 7,000 Students</li>
+                <li><i class="fa fa-user-md"></i> 870 Students</li>
                 <li><i class="fa fa-money"></i> $10,432 / $20,000</li>
-                <li><i class="fa fa-users"></i> 23 Donors</li>
+                <li><i class="fa fa-users"></i> 981 Donors</li>
               </ul>
             </div>
           </div>
           <div class="row">
             <div class = "col-md-5">
               <ul id = "criterias">
-                <li><i class="fa fa-tag"></i> Women </li>
-                <li><i class="fa fa-tag"></i> STEM </li>
-                <li><i class="fa fa-tag"></i> GPA 3.5 </li>
-                <li><i class="fa fa-tag"></i> Junior </li>
+                <li><i class="fa fa-tag"></i> Female </li>
+                <li><i class="fa fa-tag"></i> Computer Science </li>
+                <li><i class="fa fa-tag"></i> Computer Engineering </li>
+                <li><i class="fa fa-tag"></i> GPA 3.2+ </li>
               </ul>
             </div>
           </div>
@@ -162,7 +162,7 @@
           <div class="row">
             <div class = "col-md-5">
               <article class = "text-left">
-                <p id = "scholarship_des_a"> Women earn 60% of all bachelor degrees, and only a startling 18% of all STEM degrees. Of all Fortune 500 CEOs, only 4.6% are female and only 9% of them hold STEM (science, technology, engineering and math). This scholarship aims at awarding $20,000 each semester to a female student who has demonstrated exceptional leadership in her field of study and has aspirations to become a leader later on.</p>
+                <p id = "scholarship_des_a"> Women earn 60% of all bachelor degrees, and only a startling 18% of all tech degrees. This scholarship aims at awarding $20,000 each semester to a female student who has demonstrated exceptional leadership in her field of study and has aspirations to become a leader later on.</p>
               </article>
             </div>
           </div>
@@ -187,7 +187,7 @@
     </div>
     <div class="row">
       <div class="col-md-12">
-        <div class="copy-right-text text-center"> &copy; Copyright 2014, Your Website Link. Theme by <a href="https://themewagon.com/">ThemeWagon</a> </div>
+        <div class="copy-right-text text-center"> &copy; Copyright 2017, FundMatch</a> </div>
       </div>
     </div>
   </div>
@@ -205,9 +205,9 @@
 			  var container = $(this).parents(".faq-c");
 			  var answer = container.find(".faq-a");
 			  var trigger = container.find(".faq-t");
-			  
+
 			  answer.slideToggle(200);
-			  
+
 			  if (trigger.hasClass("faq-o")) {
 			    trigger.removeClass("faq-o");
 			  }
@@ -217,17 +217,17 @@
 			});
 		</script>
 <script  type="text/javascript" >
-			
+
 			(function() {
-  
+
   $(".panel").on("show.bs.collapse hide.bs.collapse", function(e) {
     if (e.type=='show'){
       $(this).addClass('active');
-      
+
     }else{
       $(this).removeClass('active');
     }
-  });  
+  });
 
 }).call(this);
 		</script>
